@@ -1,0 +1,30 @@
+{
+  "name": "freebies-serverside",
+  "version": "1.0.0",
+  "description": "Serverside manager for freebies monitor",
+  "main": "index.js",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "start": "yarn build && cross-env NODE_ENV=production node ./dist/index.js"
+  },
+  "dependencies": {
+    "@types/got": "^9.6.12",
+    "axios": "^0.26.1",
+    "discord-webhook-node": "^1.1.8",
+    "got": "^11.8.3",
+    "hpagent": "^0.1.2",
+    "https-proxy-agent": "^5.0.0",
+    "node-fetch": "^3.2.3",
+    "node-html-parser": "^6.1.1",
+    "ts-node": "^10.7.0",
+    "uWebSockets.js": "uNetworking/uWebSockets.js#v20.0.0",
+    "ws": "^8.2.2"
+  },
+  "devDependencies": {
+    "@types/ws": "^8.5.3",
+    "cross-env": "^7.0.3",
+    "typescript": "^4.6.2"
+  }
+}

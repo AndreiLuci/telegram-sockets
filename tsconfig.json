@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+      "target": "es6",
+      "lib": ["esnext", "dom"],
+      "moduleResolution": "node",
+      "module": "commonjs",
+      "strict": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "strictNullChecks": true,
+      "baseUrl": "./",
+      "outDir": "dist",
+      "paths": {
+        "*": ["node_modules/*"],
+        "@/*": ["src/*"]
+      }
+    },
+    "include": ["./src/**/*"]
+  }
+  
