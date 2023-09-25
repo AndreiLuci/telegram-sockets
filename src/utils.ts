@@ -5,7 +5,7 @@ export async function authenticate(
   hwid: string
 ): Promise<boolean> {
   const response = await axios.post(
-    "https://vulcan-auth.onrender.com/validate",
+    "https://redacted.com/validate",
     {
       jwt,
       hwid,
